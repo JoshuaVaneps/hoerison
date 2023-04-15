@@ -1,0 +1,157 @@
+/*the margin causing there to be no space between the outside of our content and the background */
+/*box sizing is set to border box so that our boxes display parallel and gives our boxes width and height regardless of if we set them*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* setting our entire  body to one background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/*this is setting our padding and our background color for our navigation bar and is applying multiple applying font options in case our first choice doest run*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*this is setting our header title and navigation side by side and applying a font size*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* turns the words seo grey  */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;/* puts space between the top of the page and the list items */
+    margin-right: 20px;/* puts space on the left side of the list items */
+    float: right;/*makes our list element float to the right of container*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*is applying multiple applying font options in case our first choice doest run*/
+    font-size: 20px;
+}
+
+/* sets the style type to a default */
+header nav ul {
+    list-style-type: none; 
+}
+
+header nav ul li {
+    display: inline-block;/*setting our list elements side by side */
+    margin-left: 25px; /* puts space to the right of the lists */
+}
+
+
+a {
+    color: #ffffff; /*sets our text color to white*/
+    text-decoration: none; /*gets rid of our underline*/
+}
+
+/*sets the font of our text to 16px*/
+p {
+    font-size: 16px;
+}
+
+/*sets our background image and dimentions*/
+.hero { 
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*gives our image a source*/
+    background-size: cover; /*Scales the image (while preserving its ratio) to the smallest possible size to fill the container */
+    background-position: center; /*centers our image*/
+}
+
+/*makes our image float to the left of container*/
+.float-left {
+    float: left; 
+    margin-right: 25px; /* puts space on the left side of the paragraph */
+}
+
+/*makes our image float to the right of container*/
+.float-right {
+    float: right;
+    margin-left: 25px;/* puts space on the left side of the paragraph */
+}
+
+.content {
+    width: 75%;
+    display: inline-block; /*generates box elements with no line break or space before or after the element*/
+    margin-left: 20px; /* puts space on the left side of the paragraph */
+}
+
+.benefits {
+    margin-right: 20px;/* puts space on the right side of the element */
+    padding: 20px;
+    clear: both; /*used to specify that which side of floating elements are not allowed to float. */
+    float: right; 
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* puts space on the bottom of the element, adds padding, also turns text white */
+#benefit-lead { 
+    margin-bottom: 32px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* puts space on the bottom of the element, also turns text white */
+#benefit-brand, #benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* puts space on the bottom of the element, also aligns our content */
+#benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ /*isolates our box element and centers our image within 10px all around*/
+#benefit-lead img, #benefit-brand img, #benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*sets the color of our div containers to blue and provedes them with font, text, color,margin, and padding*/
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*gives the images in our containers  a max height*/
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
+    max-height: 200px;
+}
+/*centers our h2 titles and gives margin at the bottom of the h2 to seperate from the paragraph  */
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*sets the font and padding for the footer and aligns our text to the center */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*gives he text in our footer a size command*/
+footer h2 {
+    font-size: 20px;
+}
