@@ -98,18 +98,12 @@ p {
     background-color: #2589bd;
 }
 
-/* puts space on the bottom of the element, adds padding, also turns text white */
-#benefit-lead { 
+#benefit-lead, #benefit-brand, #benefit-cost {
     margin-bottom: 32px;
     padding: 20px;
     color: #ffffff;
 }
 
-/* puts space on the bottom of the element, also turns text white */
-#benefit-brand, #benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 /* puts space on the bottom of the element, also aligns our content */
 #benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
